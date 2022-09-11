@@ -1,31 +1,5 @@
-// import { EthProvider } from "./contexts/EthContext";
-// import Intro from "./components/Intro/";
-// import Setup from "./components/Setup";
-// import Demo from "./components/Demo";
-// import Footer from "./components/Footer";
-// import "./App.css";
 
-// function App() {
-//   return (
-//     <EthProvider>
-//       <div id="App" >
-//         <div className="container">
-//           <Intro />
-//           <hr />
-//           <Setup />
-//           <hr />
-//           <Demo />
-//           <hr />
-//           <Footer />
-//         </div>
-//       </div>
-//     </EthProvider>
-//   );
-// }
 
-// export default App;
-
-import {CryptoCards, Button} from "web3uikit"
 import DPetitionerJson from './contracts/DPetitioner.json'
 import React from "react";
 import "./App.css";
@@ -33,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Proposal from "./pages/Proposal";
 import Logo from "./images/Moralis.png";
-import { ConnectButton } from "web3uikit";
+import { Button } from "@web3uikit/core";
 import { useState, useEffect } from "react";
 import Web3 from "web3";
 
@@ -80,24 +54,18 @@ const App = () => {
 
   return (
     <>
-    <h1>Hello World</h1>
-    <h2>{account}</h2>
+    {/* <h1>Hello World</h1>
+    <h2>{account}</h2> */}
     
       <div className="header">
         <img width="160px" src={Logo} alt="logo" />
-        {/* <ConnectButton /> */}
+        <Button />
       </div>
-      <CryptoCards
-            chain="ethereum"
-            bgColor="blue"
-            chainType="Network"
-            onClick={console.log}
-        />
-        <Button theme="primary" type="button" text="Launch Dapp" />
-      {/* <Routes>
+      {/* <Home></Home> */}
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/proposal" element={<Proposal />} />
-      </Routes> */}
+      </Routes>
     </>
   );
 };
