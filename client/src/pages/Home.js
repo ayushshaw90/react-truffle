@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import { TabList, Tab, Widget, Tag, Table, Form } from "@web3uikit/core";
 // import { Link } from "react-router-dom";
 
-const Home = () => {
+const Home = ({contract}) => {
   const [proposals, setProposals] = useState(
     [
       [
@@ -94,7 +94,10 @@ const Home = () => {
                   },
                 ]}
                 onSubmit={(e) => {
+                  console.log(e["data"][0]["inputResult"])
+                  console.log(contract)
                   alert("Proposal Submitted")
+                  contract.methods.addProposal(e["data"][0]["inputResult"], e["data"][0]["inputResult"], 2).call()
                 }}
                 title="Create a New Proposal"
               />
