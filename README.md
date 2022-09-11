@@ -7,7 +7,7 @@ Our mission is to create a platform where women can demand the laws and regulati
 ## 🚀 Live Demo
 ![Website](https://img.shields.io/badge/website-up-greene)
 
-[📒 Pitch Slide](https://www.canva.com/design/DAFKZsD0jPk/AMTY4kJf7oV3PlXxt4IhRg/edit?utm_content=DAFKZsD0jPk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+#### [📒 Pitch Slide](https://www.canva.com/design/DAFKZsD0jPk/AMTY4kJf7oV3PlXxt4IhRg/edit?utm_content=DAFKZsD0jPk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 👩🏼‍💻 Tech Stack
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
