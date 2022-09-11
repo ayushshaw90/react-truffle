@@ -1,6 +1,29 @@
-# React Truffle Box
+# 🚺 Womanity
 
-This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app.
+A petition cum online voting website dedicated to empowering women 
+
+Our mission is to create a platform where women can demand the laws and regulations they want in a democratic way from the government.
+
+## 🚀 Live Demo
+![Website](https://img.shields.io/badge/website-up-greene)
+
+[📒 Pitch Slide](https://www.canva.com/design/DAFKZsD0jPk/AMTY4kJf7oV3PlXxt4IhRg/edit?utm_content=DAFKZsD0jPk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+## 👩🏼‍💻 Tech Stack
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-blue?style=for-the-badge&logo=javascript&logoColor=white)
+
+![CSS3](https://img.shields.io/badge/CSS-orange?style=for-the-badge&logo=css3&logoColor=white)
+
+#
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+# Project maintainers and contributors
+
+<a href="https://github.com/aankirz/Tourism-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aankirz/Tourism-website" />
+</a>
 
 ## Installation
 
@@ -29,12 +52,3 @@ $ npm start
 
 From there, follow the instructions on the hosted React app. It will walk you through using Truffle and Ganache to deploy the `SimpleStorage` contract, making calls to it, and sending transactions to change the contract's state.
 
-## FAQ
-
-- __How do I use this with Ganache (or any other network)?__
-
-  The Truffle project is set to deploy to Ganache by default. If you'd like to change this, it's as easy as modifying the Truffle config file! Check out [our documentation on adding network configurations](https://trufflesuite.com/docs/truffle/reference/configuration/#networks). From there, you can run `truffle migrate` pointed to another network, restart the React dev server, and see the change take place.
-
-- __Where can I find more resources?__
-
-  This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Create React App](https://create-react-app.dev). Either one would be a great place to start!
